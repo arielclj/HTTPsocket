@@ -6,7 +6,7 @@ import mimetypes
 class TCPServer:
     """Base server class for the actual HTTP Server"""
 
-    def __init__(self, host='127.0.0.1', port=8888):
+    def __init__(self, host='0.0.0.0', port=8888):
         self.host = host
         self.port = port
 
